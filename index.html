@@ -14,11 +14,11 @@
     <script src="https://cdn.jsdelivr.net/gh/mmig/opus-encdec@e33ca40/dist/libopus-encoder.js"></script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AbyssBox</title>
-    <meta name="application-name" roperty="AbyssBox" />
-    <meta name="apple-mobile-web-app-title" content="AbyssBox">
-    <meta name="description" content="AbyssBox is an online tool for sketching and sharing instrumental music." />
-    <meta name="keywords" content="chiptune, instrumental, music, song, melody, composition, tool, free, online, square wave, NES, NSF, abyssbox, ultrabox, beepbox, jummbox, pandorasbox, modbox, sandbox, goldbox, wackybox, todbox" />
+    <title>shinglebox</title>
+    <meta name="application-name" roperty="shinglebox" />
+    <meta name="apple-mobile-web-app-title" content="shinglebox">
+    <meta name="description" content="shinglebox is an online tool for sketching and sharing instrumental music." />
+    <meta name="keywords" content="chiptune, instrumental, music, song, melody, composition, tool, free, online, square wave, NES, NSF, shinglebox, ultrabox, beepbox, jummbox, pandorasbox, modbox, sandbox, goldbox, wackybox, todbox" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -26,7 +26,7 @@
     <meta name="msapplication-TileColor" content="#dba600" />
     <meta name="msapplication-config" content="/browserconfig.xml" />
     <meta name="format-detection" content="telephone=no" />
-    <meta property="og:image" content="https://choptop84.github.io/abyssbox-app/icon_maskable_192.png" />
+    <meta property="og:image" content="https://choptop84.github.io/shinglebox-app/icon_maskable_192.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="icon_32.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="icon_32.png" />
     <link rel="manifest" href="/manifest.webmanifest" />
@@ -285,10 +285,10 @@
 
     <script> 
 
-        if (location.pathname.startsWith("/abyssbox-source/website/")) {
-            location.pathname = "/abyssbox-testing/" + location.pathname.slice("/abyssbox-source/website/".length);
-        } else if (location.pathname.startsWith("/abyssbox-source/website/index.html")) {
-            console.log("Welcome to AbyssBox Source (The HTML File)");
+        if (location.pathname.startsWith("/shinglebox-source/website/")) {
+            location.pathname = "/shinglebox-testing/" + location.pathname.slice("/shinglebox-source/website/".length);
+        } else if (location.pathname.startsWith("/shinglebox-source/website/index.html")) {
+            console.log("Welcome to shinglebox Source (The HTML File)");
         }
 
     </script>
@@ -306,7 +306,7 @@
     </script>
     <div id="beepboxEditorContainer">
         <noscript>
-            Sorry, AbyssBox and UltraBox require a JavaScript-enabled browser.
+            Sorry, shinglebox and UltraBox require a JavaScript-enabled browser.
         </noscript>
     </div>
     <div id="text-content">
@@ -317,12 +317,12 @@
             </h1>
             
             <p id="introduction">
-                AbyssBox is an all-encompassing mod of UltraBox that adds smaller but meaningful changes across the board. 
-                From new effects to quality of life changes to countless themes, AbyssBox overall makes the user experience more convenient and simple to use while also providing 
+                shinglebox is an all-encompassing mod of Abyssbox. 
+                From new effects to quality of life changes to countless themes, shinglebox overall makes the user experience more convenient and simple to use while also providing 
                 a different enough experience from UltraBox and its contemporaries to be worth using.
                 <br>
                 <br>
-                AbyssBox contains the effort of many people and BeepBox mods, each of those people can be found in the <a href="./credits.html">credits</a>.
+                shinglebox contains the effort of many people and BeepBox mods, each of those people can be found in the <a href="./credits.html">credits</a>.
                 <br>
                 <br>
             </p>
@@ -348,7 +348,7 @@
             <div class="bsky-embed" style="justify-content: center; display: flex; cursor: pointer; margin-top: 10px;">
                 <div onclick="window.open('./manual.html', '_blank')" style="height: 80px; background: #421422; width: 450px; border-radius: 20px; border: solid 1px #8d2b50; display: flex; flex-direction: row; align-items: center;">
                     <div style="height: 100%;width: 80px;border-right: 1px solid #8d2b50;/*! border-radius: 10px; */background-image: url(./image_assets/manual.png);background-size: 90%;background-repeat: no-repeat;background-position: center;"></div>
-                    <div style="flex: 1;text-align: center;font-size: 21px;text-decoration: underline;color: #ff668c;">Find the AbyssBox User Manual here!</div>
+                    <div style="flex: 1;text-align: center;font-size: 21px;text-decoration: underline;color: #ff668c;">Find the shinglebox User Manual here!</div>
                 </div>
             </div>
             <!--
@@ -373,7 +373,7 @@
                     </h2>
                     <p>
                         You can add or remove notes by clicking on the gray rows at the top.
-                        AbyssBox automatically plays the notes out loud for you. Try it!
+                        shinglebox automatically plays the notes out loud for you. Try it!
 			    <img id="Hotdog" src="image_assets/hotdog.png" width="500" height="333" onclick="changeHotdogSize()"/>
 				<script>
 				function changeHotdogSize(){
@@ -420,7 +420,7 @@
                         </span>
                     </p>
                     <p>
-                        AbyssBox can play several rows of patterns simultaneously, and each row has its own set of patterns.
+                        shinglebox can play several rows of patterns simultaneously, and each row has its own set of patterns.
                         Most rows can play melodies or harmonies, but the bottom row is for drums.
                     </p>
                     <p>
@@ -443,16 +443,16 @@
                         About
                     </h2>
                     <p>
-                       AbyssBox is a mod of BeepBox developed by choptop84 and UltraBox is a mod of BeepBox developed by Main and Neptendo. The easiest way to contact the developers is via the <a href="https://discord.com/invite/beepbox" target="_blank">Beepbox Discord</a>.<br><br>
+                       shinglebox is a mod of BeepBox developed by choptop84 and UltraBox is a mod of BeepBox developed by Main and Neptendo. The easiest way to contact the developers is via the <a href="https://discord.com/invite/beepbox" target="_blank">Beepbox Discord</a>.<br><br>
                     </p>
                     <p>
-                       AbyssBox nor UltraBox does not claim ownership over songs created with it, so original songs belong to their authors.
+                       shinglebox nor UltraBox does not claim ownership over songs created with it, so original songs belong to their authors.
                     </p>
                     <p>
-                      None of AbyssBox, it's creator, Ultrabox nor its creators assume responsibility for any copyrighted material played on AbyssBox. No songs are ever received, recorded, or distributed by AbyssBox's servers. All song data is contained in the URL after the hash (#) mark, and Abyssbox running inside your browser converts that data into sound waves.
+                      None of shinglebox, it's creator, Ultrabox nor its creators assume responsibility for any copyrighted material played on shinglebox. No songs are ever received, recorded, or distributed by shinglebox's servers. All song data is contained in the URL after the hash (#) mark, and shinglebox running inside your browser converts that data into sound waves.
                     </p>
                     <p>
-                        AbyssBox does not collect, track, or share any user data.
+                        shinglebox does not collect, track, or share any user data.
                     </p>
                     <p id="offline-instructions">
                         <!--
@@ -460,11 +460,11 @@
                         -->
                     </p>
                     <p>
-                        You can download and use <a href="https://github.com/choptop84/abyssbox-source" target="_blank">the source code</a> under the MIT license.
+                        You can download and use <a href="https://github.com/choptop84/shinglebox-source" target="_blank">the source code</a> under the MIT license.
                         The original BeepBox source code by John Nesky can be found <a href="https://github.com/johnnesky/beepbox" target="_blank">here</a>.
                     </p>
                     <p>
-                        The patch notes of AbyssBox are available <a href="./patch-notes">here</a>.
+                        The patch notes of shinglebox are available <a href="./patch-notes">here</a>.
                     </p>     
                 </section>
             </main>
@@ -535,130 +535,9 @@
         // plants originate from JummBox, but then in GoldBox was renamed from jummboxPlants to goldboxPlants, so here I just renamed them to plants to simplify things
         const theme = localStorage.getItem("colorTheme");
         var plants = [
-        "  Free!",
-        "  Once was Ultrabox",
-        "  How do you feel?",
-        "  You're making a masterpiece",
-        "  Anime",
-        "  wahhh?!?!",
-        "  🌈🍂🍁🍀🌷🍄🐲🌈🍃🌺🍄",
-        "  Amen break 145bpm be like",
-        "  ≽(◕ ᴗ ◕)≼",
-        "  ≽(ᴗ _ ᴗ)≼",
-        "  ≽(⌐ _ ⌐)≼",
-        "  ≽(ᵕ ‿ ᵕ)≼",
-        "  ☀️⭐🕒👁️",
-        "  🪱 wormy :)",
-        "  :wackybox:",
-        "  AAAAAAAAAAAAAAA oh you scared me!",
-        "  :p",
-        "  nyeh heh heh heh!",
-        "  IS THAT SAN-",
-        "  Megalo incoming!!!",
-        "  PizzaBox",
-        "  Try Minecraft!",
-        "  burgor",
-        "  wah wah",
-        "  plus",
-        "+",
-        "  😳🔥",
-        "  xoBssybA",
-        "  Also try Monday Night BeepBoxing!",
-        "  https://tinyurl.com/3hudd29u",
-        "  https://tinyurl.com/iploggersong",
-        "  Click here for a secret!",
-        "  Do NOT click here!!!",
-        "  The Game...",
-        "  Shakey Shakey!!!",
-        "  By The Way, Clicking these sometimes does funny stuff",
-        "  But to the left!!!",
-        "But Stacked!",
-        "  Mwah",
-        "  Bwaah",
-        "  Bwaaaaaaah",
-        "  Meow",
-        "  Adventure",
-        "  Adventure 2",
-        '  <("𓆏")',
-        `  "Do people even read these?" No probably not but I don't care!!!`,
-        `ing your mom!!!`,
-        `  Your theme is/was `+theme+" when you got here!", 
-        "  plants, but cool!",
-        "  ThemeBox is real",
-        "  Now using arrays!",
-        '  No association with "Abyss Box"',
-        "  shitbox4 is the worst!",
-        ", also has developed BoxBeep!",
-        "  named after My Abyss!",
-        "  check out My Abyss!",
-        "  Is not full of water!",
-        "  Also try NepBox!",
-        "  Also try MidBox!",
-        "  AbyssBox-chan is canon!",
-        "  Samples better not be broken again!",
-        "  Excessive!",
-        "  Azur lane is a good theme!",
-        "  Also Try Azumanga Daioh!",
-        "  o my gah!",
-        "  Thank you John Nesky!",
-        "  I love you!",
-        "  Would you marry me?!",
-        "  The last two plants are unrelated",
-        "  there are a lot of plants in AbyssBox",
-        "  fun fact:",
-        "  is an online tool for for sketching and sharing instrumental music.",
-        "  Please send me this song!",
-        "  Easier than ever!",
-        "  It is 4:19 AM as of me writing this!",
-        "  BedBox",
-        "  ( σ ‸σ)",
-        "  You will never see this plant in the mod! Isn't that crazy?!",
-        "  Make me a melody!",
-        "  Random!",
-        "  One of the mods of all time!",
-        "  Fortnite?!",
-        "  What time is it? It is "+timeNum+" right now",
-        "  Too many plants!",
-        "  Glyde is in WubWub with Dubstep!",
-        "  ツンデレ",
-        "  Too many themes? No way!",
-        "2",
-        "  match 3 centered music sim",
-        "4",
-        "  TheGubbys",
-        "  Nokia Cat is cool!",
-        "  Bulbasaur",
-        "  ✨ Plant Life ✨",
-        "  Monstera",
-        "  Niko OneShot",
-        "  Liliac",
-        "  🍂",
-        "  🌿",
-        "  🌺",
-        "  🍃",
-        "  🍄",
-        "  🍀🌷",
-        "  1️⃣3️⃣1️⃣2️⃣",
-        "  🐟",
-        "  ⚡",
-        "  🔵",
-        "  💫",
-        "  👽",
-        "  🍕",
-        "  🌭",
-        "  🍔",
-        "  🍟",
-        "  hoyse 💥❗",
-        "  🧿",
-        "  not :wackybox:",
-        "  100% beef",
-        "  100% vegan",
-        "  rainbow!",
-        "  half-life 3 when?",
-        "  skipped the 3rd entry",
-        "  Oh god not the update prompt...",
-        "  ＧＲＡＮＵＬＡＲ",
-        "  whatsapp horse",
+        " supersigma edidtion",
+        " what're YOU looking at.",
+        " Once was Abyssbox, which once was ultrabox, which once was Jummbox, which once was beepbox, cool right?",
         ];
 
         const curPlant = Math.floor(Math.random() * plants.length);
@@ -673,8 +552,8 @@
             document.getElementById("plant").innerHTML = "  Love!";
         }
 
-        if (document.getElementById("plant").innerHTML == "  there are a lot of plants in AbyssBox") {
-            document.getElementById("plant").innerHTML = "  there are "+plants.length+" plants in AbyssBox!";
+        if (document.getElementById("plant").innerHTML == "  there are a lot of plants in shinglebox") {
+            document.getElementById("plant").innerHTML = "  there are "+plants.length+" plants in shinglebox!";
 
             }    
 
@@ -879,8 +758,8 @@
             } else if (document.getElementById("plant").innerHTML == "  Free!") {
                 document.getElementById("plant").innerHTML = "  Actually I lied..."
             } else if (document.getElementById("plant").innerHTML == "  Actually I lied...") {
-                document.getElementById("plant").innerHTML = "  You're Using a pirated version of AbyssBox..."
-            } else if (document.getElementById("plant").innerHTML == "  You're Using a pirated version of AbyssBox...") {
+                document.getElementById("plant").innerHTML = "  You're Using a pirated version of shinglebox..."
+            } else if (document.getElementById("plant").innerHTML == "  You're Using a pirated version of shinglebox...") {
                 document.getElementById("plant").innerHTML = "  Get Caught Theif!"
                 window.open("./piracy", "_blank");
             } else if (document.getElementById("plant").innerHTML == "  Once was Ultrabox") {
